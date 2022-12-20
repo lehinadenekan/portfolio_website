@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script defer src="portfolio_website.js"></script>
+    <link rel="stylesheet" href="./portfolio_website.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Timilehin's Portfolio Website</title>
+  </head>
+  <body>
+    <!-- hero section -->
+    <div class="hero_section">
+      <div class="hero_container">
+        <div class="column_left">
+          <span>EQ Enterprises</span>
+          <h1>Welcome to Timilehin's Portfolio Website</h1>
+          <p>Software Developer // Web Developer</p>
+        </div>
+        <div class="column_right">
+          <img
+            id="mlk"
+            src="./images/mlk.jpeg"
+            alt="an image of Martin Luther King Jnr in a durag."
+          />
+          <div class="icons">
+            <!-- icons not maintaining attributes when wrapped in a tag -->
+            <!-- <a target="_blank" href=""> -->
+            <i class="fa-brands fa-github"></i>
+            <!-- </a> -->
+            <!-- <a target="_blank" href="http://www.linkedin.com/in/lehin"> -->
+            <i class="fa-brands fa-linkedin-in"></i>
+            <!-- </a> -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- about section -->
+    <div class="main_section">
+      <div class="main_container">
+        <div class="column_left">
+          <img
+            id="timilehin"
+            src="./images/timilehin.png"
+            alt="An image of the owner of this website, Timilehin."
+          />
+        </div>
+        <div class="column_right">
+          <h2>Hello, I am Timilehin.</h2>
+          <div class="main_content">
+            <div class="main_text">
+              <p>
+                In December 2022 I completed a 12 week software development
+                bootcamp with Just IT. <br />
+                <br />
+                During the 12 week course I explored HTML, CSS, Javascript,
+                Python, MySQL, and mongoDB. <br />
+                <br />
+                In addition to the bootcamp I have been working on some
+                projects. Scroll down to see more.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- projects section -->
+    <div class="projects_section">
+      <div class="projects_container">
+        <h2>Projects</h2>
+        <div class="portfolio_main"></div>
+        <div class="portfolio_left"></div>
+        <div class="portfolio_right">
+          <!-- temperature converter app -->
+          <h3>Temperature Converter App</h3>
+          <label id="temperature_label">Enter a temperature: </label>
+          <br />
+          <input type="text" id="temperature_input" />
+          <br />
+          <p>Convert to:</p>
+          <!-- radio buttons with the same name mean you can only select one of them -->
+          <input type="radio" id="celsius_radio" name="unit" />
+          <label id="celsius_label">Celsius</label>
+
+          <input type="radio" id="fahrenheit_radio" name="unit" />
+          <label id="fahrenheit_label">Fahrenheit</label>
+          <br />
+          <br />
+          <button type="button" id="submit_button">Submit</button>
+          <p id="temperature">Temperature:</p>
+
+          <br />
+
+          <!-- NUMBER GUESSING GAME -->
+
+          <h1>Number Guessing Game</h1>
+          <p>Pick a number between 1 and 10</p>
+          <label for="">Enter your guess</label>
+          <input type="text" id="guessField" />
+          <input type="submit" id="submitButton" />
+        </div>
+      </div>
+    </div>
+    <!-- <header>
+        <nav id="navbar">
+          <ul>
+            <li><a href = /.home.html>Home</a></li>
+            <li><a href = /.about_me.html>About Me</a></li>
+            
+            <li><a href = /.projects.html>Projects</a></li>
+            <li><a href = /.projects.html>Skills</a></li>
+            <li><a href = /.contact.html >Contact</a></li>
+          </ul>
+        </nav>
+    </header>
+   
+    <h1>Welcome to Timilehin's Online Portfolio</h1> 
+
+    <main class="container">
+      <div class="section about_me">
+        <br>
+
+        <span class="about_me_icons">
+          <i class="fa-brands fa-github"></i>
+          <i class="fa-brands fa-linkedin-in"></i>
+        </span>
+      </div>
+      <div class="section projects">
+        <br>
+        Projects
+        <div class="section projects ecommerce">Playful Nature</div>
+        <div class="section projects music">Lehin.com</div>
+        <div class="section projects rota">Rota</div>
+      </div>
+      <div class="section contact">Contact</div>
+    </main> -->
+  </body>
+</html>
