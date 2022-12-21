@@ -98,6 +98,7 @@
 .main_section p {
   font-size: 30px;
 }
+
 #timilehin {
   height: 60%;
   width: 60%;
@@ -119,7 +120,41 @@
   font-size: 75px;
 }
 
+.temp_app {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
 
+.number_guessing_game {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/* .projects_container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 200px
+}
+
+.projects_container .temp_app_left{
+  display: flex-start;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.projects_container .temp_app_right{
+  display: flex-start;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+} */
+
+
+/* 
 #navbar{
   background-color: purple;
   align-items: center;
@@ -131,7 +166,7 @@ ul{
   padding-top: 10px;
   padding-bottom: 10px;
   background-color: purple;
- /* position: fixed; */
+ position: fixed;
   text-align: center;
   position: sticky;
 }
@@ -149,9 +184,9 @@ li a:hover{
   margin-top: 20px;
   align-items: center;
   display: flex;
-  /* position: center; */
+  position: center;
   justify-content: space-between
-}
+} */
 
 
 

@@ -33,10 +33,14 @@
           <div class="icons">
             <!-- icons not maintaining attributes when wrapped in a tag -->
             <!-- <a target="_blank" href=""> -->
-            <i class="fa-brands fa-github"></i>
+            <a href="https://github.com/lehinadenekan" target="_blank">
+              <i class="fa-brands fa-github"></i
+            ></a>
             <!-- </a> -->
             <!-- <a target="_blank" href="http://www.linkedin.com/in/lehin"> -->
-            <i class="fa-brands fa-linkedin-in"></i>
+            <a href="https://www.linkedin.com/in/lehin" target="_blank">
+              <i class="fa-brands fa-linkedin-in"></i
+            ></a>
             <!-- </a> -->
           </div>
         </div>
@@ -75,32 +79,37 @@
     <div class="projects_section">
       <div class="projects_container">
         <h2>Projects</h2>
-        <div class="portfolio_main"></div>
-        <div class="portfolio_left"></div>
-        <div class="portfolio_right">
-          <!-- temperature converter app -->
+        <!-- temperature converter app -->
+        <div class="temp_app">
           <h3>Temperature Converter App</h3>
-          <label id="temperature_label">Enter a temperature: </label>
           <br />
+          <label id="temperature_label">Enter a temperature: </label>
+
           <input type="text" id="temperature_input" />
           <br />
           <p>Convert to:</p>
           <!-- radio buttons with the same name mean you can only select one of them -->
           <input type="radio" id="celsius_radio" name="unit" />
           <label id="celsius_label">Celsius</label>
-
           <input type="radio" id="fahrenheit_radio" name="unit" />
           <label id="fahrenheit_label">Fahrenheit</label>
-          <br />
+
           <br />
           <button type="button" id="submit_button">Submit</button>
           <p id="temperature">Temperature:</p>
-
           <br />
-
+          <p>
+            This is a temperature conversion app which allows the user to enter
+            a number and convert it to their desired unit of temperature.
+            <br />
+            This app was made with Javascript.
+          </p>
+        </div>
+        <br />
+        <div class="number_guessing_game">
           <!-- NUMBER GUESSING GAME -->
-
-          <h1>Number Guessing Game</h1>
+          <h3>Number Guessing Game</h3>
+          <br />
           <p>Pick a number between 1 and 10</p>
           <label for="">Enter your guess</label>
           <input type="text" id="guessField" />
@@ -108,6 +117,11 @@
         </div>
       </div>
     </div>
+
+    <!-- <br> -->
+
+    <!-- <div class="column_right"> -->
+
     <!-- <header>
         <nav id="navbar">
           <ul>
